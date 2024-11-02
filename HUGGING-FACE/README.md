@@ -4,6 +4,8 @@
 <div align="center">
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
   <img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white">
+  <img src="https://img.shields.io/badge/Hugging%20Face-%23FFD21E?style=for-the-badge&logo=huggingface&logoColor=black
+  ">
 </div>
 
 <h2>Content Overview 📚</h2>
@@ -15,6 +17,17 @@
   <li><strong>Question Answering ❓</strong> - Answers questions based on provided context, enabling information retrieval.</li>
   <li><strong>Sentiment Analysis ❤️</strong> - Analyzes text to determine the sentiment expressed, whether positive, negative, or neutral.</li>
   <li><strong>Summarization 📄</strong> - Creates a concise summary of longer texts while retaining key information.</li>
+</ol>
+
+<h2>Pre-Setup ⚙️</h2>
+
+<ol>
+  <li><strong>Make a <a href="https://huggingface.co/login">Hugging Face</a> Account</strong> </li>
+  <li>Once you Sign Up or Login, make sure to verified your email.</li>
+  <li>Create a Hugging Face <strong><a href="https://huggingface.co/settings/tokens">Tokens</a></strong>. Check all the requirement you need for the tokens. If you are new to this, check all of it.</li>
+  <li>Save your personal token somewhere safe. </br><strong>IMPORTANT! YOU CANNOT RETRIEVE IT ONCE YOU LOST THE TOKEN AND YOU SHOULD MAKE A NEW TOKEN</strong><</li>
+  <li>Import your token whenever you're running </br><code>from huggingface_hub import login</br>
+  login()</code></li>
 </ol>
 
 <h2>Setup ⚙️</h2>
@@ -41,7 +54,7 @@
       <li>Name the environment <code>tensorflow</code> and choose Python version <code>3.10.x</code>.</li>
     </ul>
   </li>
-  <li><strong>Import TensorFlow Configuration</strong> - Import the <code>tensorflow.yaml</code> file into your new environment to set up the required packages and dependencies.</li>
+  <li><strong>Import TensorFlow Configuration</strong> - Import the <code>py31.yaml</code> file into your new environment to set up the required packages and dependencies.</li>
 </ol>
 
 <h3>
@@ -67,18 +80,10 @@
     </ul>
   </li>
   <li><strong>Open Anaconda Prompt in your Computer</strong></li>
-  <li>Type <code>conda activate pytorch</code> and then hit enter.</li>
+  <li>Once you are inside of the Anaconda Prompt, type this : <pre><code>conda activate pytorch</code></pre> and then hit enter.</li>
   <li>Once you are inside of the <code>(pytorch)</code>, open the <a href="https://pytorch.org/get-started/locally/">PyTorch Website</a> and select the one that you want to installed on the computer. For Example, I want to use CUDA 12.4 and installed it through conda installer.</li>
-  <li>For that, I will type <code>conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia</code> in the ananconda prompt and hit enter.</li>
+  <li>For that, I will type <pre><code>conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia</code></pre> in the ananconda prompt and hit enter.</li>
 </ol>
 
 <h3>Google Colab ☁️</h3>
-<ol>
-  <li><strong>Install Transformers Library</strong>
-    <pre><code>!pip install transformers</code></pre>
-    <p>This command installs the HuggingFace Transformers library, allowing you to utilize its powerful features for natural language processing tasks.</p>
-  </li>
-</ol>
-
-<h2>Analysis</h2>
-    <span>All of the analysis i made are inside of the <a href = "https://github.com/valselt/NLP_HuggingFace_Transformers/blob/main/NLP_HuggingFace_Transformers_Muhammad%20Ivan%20Aldorino.ipynb"><code>NLP_HuggingFace_Transformers_Muhammad Ivan Aldorino.ipynb</code></a>. Go Check it Out!</span>
+<span>All of the requirements needed for this notebook are already installed inside Google Colab by Default (TensorFlow and Hugging Face). In order to speed up your process, change Google Colab runtime from <code>CPU</code> to <code>GPU</code> or <code>TPU</code>. For the tutorial on how to change the runtime click <a href="https://www.geeksforgeeks.org/how-to-use-google-colab/#:~:text=Change%20Runtime%20Environment%3A%20Click%20the%20%E2%80%9CRuntime%E2%80%9D%20dropdown%20menu.%20Select%20%E2%80%9CChange%20runtime%20type%E2%80%9D%20.%20Select%20python2%20or%203%20from%20the%20%E2%80%9CRuntime%20type%E2%80%9D%20dropdown%20menu.">here</a> </span>
