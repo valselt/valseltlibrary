@@ -1,22 +1,20 @@
-<h1 align="center"> Convlutional Neural Networks 🤖✨ </h1>
-<p align="center"> This folder contains various NLP pipelines using HuggingFace Transformers for different natural language processing tasks. </p>
+<h1 align="center"> Convolutional Neural Networks 🖼️✨ </h1>
+<p align="center"> This folder contains various projects demonstrating of the implementation of Convolutional Neural Networks (CNNs) for image classification tasks using popular datasets. </p>
 
 <div align="center">
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
   <img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white">
-  <img src="https://img.shields.io/badge/Hugging%20Face-%23FFD21E?style=for-the-badge&logo=huggingface&logoColor=black
-  ">
+  <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+  <img src="https://img.shields.io/badge/scikit%20learn-%23F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
+  <img src="https://img.shields.io/badge/pandas-%23150458?style=for-the-badge&logo=pandas&logoColor=white">
+  <img src="https://img.shields.io/badge/numpy-5aaacd?style=for-the-badge&logo=numpy&logoColor=5575cc">
+  <img src="https://img.shields.io/badge/matplotlib-1f5379?style=for-the-badge&logoColor=5575cc">
 </div>
 
 <h2>Content Overview 📚</h2>
 <ol>
-  <li><strong>Zero-Shot Classification 🎯</strong> - Classifies text into categories without the need for specific training data for those categories.</li>
-  <li><strong>Text Generation ✍️</strong> - Generates coherent and relevant text based on a given prompt.</li>
-  <li><strong>Fill-Mask 📝</strong> - Predicts missing words in a sentence, which is useful for text correction and completion.</li>
-  <li><strong>Named Entity Recognition (NER) 🔍</strong> - Identifies and classifies entities in the text, such as names, organizations, and locations.</li>
-  <li><strong>Question Answering ❓</strong> - Answers questions based on provided context, enabling information retrieval.</li>
-  <li><strong>Sentiment Analysis ❤️</strong> - Analyzes text to determine the sentiment expressed, whether positive, negative, or neutral.</li>
-  <li><strong>Summarization 📄</strong> - Creates a concise summary of longer texts while retaining key information.</li>
+  <li><strong><a href="https://github.com/valselt/valseltlibrary/tree/main/CNN">CNN - MNIST</a> ✏️🖼️</strong> - A project that implements CNN to classify handwritten digits from the MNIST dataset, showcasing the effectiveness of deep learning in image recognition.</li>
+  <li><strong><a href="https://github.com/valselt/valseltlibrary/tree/main/CNN/TACO%20Trash">CNN - TACO</a> 🥡🗑️🖼️</strong> - Using CNN to identify and classify images in the Trash Annotations in Context (TACO) dataset, useful for object detection tasks.</li>
 </ol>
 
 <h2>Pre-Setup ⚙️</h2>
