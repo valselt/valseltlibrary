@@ -72,6 +72,33 @@
            <li><pre><code>conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0</pre></code></li>
            <li><pre><code>pip install "tensorflow<2.11"</pre></code></li>
         </ul>
+        <li>Install other dependencies used in this project :</li>
+        <ul>
+          <li>
+            <a href="https://github.com/tensorflow/tensorflow/issues/60216#:~:text=Numpy%20was%20pinned%20to%20%3C1.24%20since%20it%20affected%20few%20tests%20on%20Ragged%20Tensors.%20Agree%20that%20we%20should%20fix%20those%20tests%20and%20remove%20the%20upperbound%20in%20future%20releases.">NumPy</a></br>
+            <pre><code>conda install numpy=1.24</pre></code>
+          </li>
+          <li>
+            <a href="https://matplotlib.org/devdocs/devel/min_dep_policy.html#:~:text=of%20the%20dependencies.-,Matplotlib,1.23.0,-3.8">Matplotlib</a></br>
+            <pre><code>conda install matplotlib=3.9</pre></code>
+          </li>
+          <li>
+            <a href="https://pandas.pydata.org/pandas-docs/version/2.1.3/getting_started/install.html#:~:text=Required%20dependencies">Pandas</a></br>
+            <pre><code>conda install pandas</pre></code>
+          </li>
+          <li>
+            <a href="https://ipython.readthedocs.io/en/8.27.0/install/kernel_install.html#:~:text=different%20virtualenvs%20or-,conda%20environments,-%2C%20you%20will%20need">IPython Kernel</a></br>
+            <pre><code>conda install ipykernel</pre></code>
+          </li>
+          <li>
+            OpenCV</br>
+            <pre><code>conda install -c conda-forge opencv</pre></code>
+          </li>
+          <li>
+            <a href = "https://huggingface.co/docs/huggingface_hub/installation#:~:text=./huggingface_hub/.-,Install%20with%20conda,-If%20you%20are">Hugging Face Hub</a></br>
+            <pre><code>conda install -c conda-forge opencv</pre></code>
+          </li>
+        </ul>
     </ul>
   </li>
 </ol>
@@ -104,11 +131,33 @@
   <li>Once you are inside of the Anaconda Prompt, type this : <pre><code>conda activate pytorch</code></pre> and then hit enter.</li>
   <li>Once you are inside of the <code>(pytorch)</code>, open the <a href="https://pytorch.org/get-started/locally/">PyTorch Website</a> and select the one that you want to installed on the computer. For Example, I want to use CUDA 12.4 and installed it through conda installer.</li>
   <li>For that, I will type <pre><code>conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia</code></pre> in the ananconda prompt and hit enter.</li>
-  <li>After PyTorch were successfully installed, run this code <pre><code>conda install conda-forge::huggingface_hub</code></pre>
-  <pre><code>conda install conda-forge::transformers
-</code></pre><pre><code>conda install jupyter
-</code></pre>to install Hugging Face Hub and Transformers as well as Jupyter Notebook to your environment.
-  </li>
+  <li>Install other dependencies used in this project :</li>
+        <ul>
+          <li>
+            <a href="https://github.com/tensorflow/tensorflow/issues/60216#:~:text=Numpy%20was%20pinned%20to%20%3C1.24%20since%20it%20affected%20few%20tests%20on%20Ragged%20Tensors.%20Agree%20that%20we%20should%20fix%20those%20tests%20and%20remove%20the%20upperbound%20in%20future%20releases.">NumPy</a></br>
+            <pre><code>conda install numpy=1.24</pre></code>
+          </li>
+          <li>
+            <a href="https://matplotlib.org/devdocs/devel/min_dep_policy.html#:~:text=of%20the%20dependencies.-,Matplotlib,1.23.0,-3.8">Matplotlib</a></br>
+            <pre><code>conda install matplotlib=3.9</pre></code>
+          </li>
+          <li>
+            <a href="https://pandas.pydata.org/pandas-docs/version/2.1.3/getting_started/install.html#:~:text=Required%20dependencies">Pandas</a></br>
+            <pre><code>conda install pandas</pre></code>
+          </li>
+          <li>
+            <a href="https://ipython.readthedocs.io/en/8.27.0/install/kernel_install.html#:~:text=different%20virtualenvs%20or-,conda%20environments,-%2C%20you%20will%20need">IPython Kernel</a></br>
+            <pre><code>conda install ipykernel</pre></code>
+          </li>
+          <li>
+            OpenCV</br>
+            <pre><code>conda install -c conda-forge opencv</pre></code>
+          </li>
+          <li>
+            <a href = "https://huggingface.co/docs/huggingface_hub/installation#:~:text=./huggingface_hub/.-,Install%20with%20conda,-If%20you%20are">Hugging Face Hub</a></br>
+            <pre><code>conda install -c conda-forge opencv</pre></code>
+          </li>
+        </ul>
   <li><strong>Remember to use <code>pytorch</code> kernel when you try to run the notebooks.</strong></li>
 </ol>
 
