@@ -1,5 +1,5 @@
 <h1 align="center"> NLP With HuggingFace Transformers 🤖✨ </h1>
-<p align="center"> This project contains various NLP pipelines using HuggingFace Transformers for different natural language processing tasks. </p>
+<p align="center"> This folder contains various NLP pipelines using HuggingFace Transformers for different natural language processing tasks. </p>
 
 <div align="center">
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
