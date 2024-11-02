@@ -13,8 +13,8 @@
 
 <h2>Content Overview 📚</h2>
 <ol>
-  <li><strong><a href="https://github.com/valselt/valseltlibrary/tree/main/CNN">CNN - MNIST</a> ✏️🖼️</strong> - A project that implements CNN to classify handwritten digits from the MNIST dataset, showcasing the effectiveness of deep learning in image recognition.</li>
-  <li><strong><a href="https://github.com/valselt/valseltlibrary/tree/main/CNN/TACO%20Trash">CNN - TACO</a> 🥡🗑️🖼️</strong> - Using CNN to identify and classify images in the Trash Annotations in Context (TACO) dataset, useful for object detection tasks.</li>
+  <li><strong><a href="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/CNN">CNN - MNIST</a> ✏️🖼️</strong> - A project that implements CNN to classify handwritten digits from the MNIST dataset, showcasing the effectiveness of deep learning in image recognition.</li>
+  <li><strong><a href="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/CNN">CNN - TACO</a> 🥡🗑️🖼️</strong> - Using CNN to identify and classify images in the Trash Annotations in Context (TACO) dataset, useful for object detection tasks.</li>
 </ol>
 
 <h2>Setup ⚙️</h2>
@@ -64,7 +64,5 @@
 </br>
 <span>Remember to use <code>tensorflow</code> kernel when you try to run the notebooks.</span>
 
-
 <h3>Google Colab ☁️</h3>
 <span>All of the requirements needed for this notebook are already installed inside Google Colab by Default (TensorFlow). In order to speed up your process, change Google Colab runtime from <code>CPU</code> to <code>GPU</code> or <code>TPU</code>. For the tutorial on how to change the runtime click <a href="https://www.geeksforgeeks.org/how-to-use-google-colab/#:~:text=Change%20Runtime%20Environment%3A%20Click%20the%20%E2%80%9CRuntime%E2%80%9D%20dropdown%20menu.%20Select%20%E2%80%9CChange%20runtime%20type%E2%80%9D%20.%20Select%20python2%20or%203%20from%20the%20%E2%80%9CRuntime%20type%E2%80%9D%20dropdown%20menu.">here</a>
-
