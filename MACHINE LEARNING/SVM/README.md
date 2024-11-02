@@ -15,8 +15,8 @@
 
 <h2>Content Overview 📚</h2>
 <ol>
-  <li><strong><a href="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/CNN">CNN - MNIST</a> ✏️🖼️</strong> - A project that implements CNN to classify handwritten digits from the MNIST dataset, showcasing the effectiveness of deep learning in image recognition.</li>
-  <li><strong><a href="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/CNN">CNN - TACO</a> 🥡🗑️🖼️</strong> - Using CNN to identify and classify images in the Trash Annotations in Context (TACO) dataset, useful for object detection tasks.</li>
+  <li><strong><a href="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/SVM/MNIST">SVM - MNIST</a> ✏️🖼️</strong> - A project that implements CNN to classify handwritten digits from the MNIST dataset, showcasing the effectiveness of deep learning in image recognition.</li>
+  <li><strong><a href="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/SVM/TACO%20Trash">SVM - TACO</a> 🥡🗑️🖼️</strong> - Using CNN to identify and classify images in the Trash Annotations in Context (TACO) dataset, useful for object detection tasks.</li>
 </ol>
 
 <h2>Setup ⚙️</h2>
@@ -39,10 +39,10 @@
     <ul>
       <li>Launch the Anaconda Navigator application.</li>
       <li>Click on the "Environments" tab on the left sidebar.</li>
-      <li>Before importing configuration, download the <code><a href = "https://github.com/valselt/valseltlibrary/blob/main/REQUIREMENTS/py39.yaml">py31.yaml</a></code> from REQUIREMENTS folder first.</li>
+      <li>Before importing configuration, download the <code><a href = "https://github.com/valselt/valseltlibrary/blob/main/REQUIREMENTS/py39.yaml">py39.yaml</a></code> from REQUIREMENTS folder first.</li>
       <li>Click "Import" at the bottom left.</li>
       <li>Click "Import from Local Drive".</li>
-      <li>Click on the folder icon, and choose <code>py31.yaml</code> you download earlier.</li>
+      <li>Click on the folder icon, and choose <code>py39.yaml</code> you download earlier.</li>
       <li>Name the environment <code>tensorflow</code>.</li>
     </ul>
   </li>
