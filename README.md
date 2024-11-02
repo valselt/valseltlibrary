@@ -25,7 +25,7 @@
 </ol>
 
 <h2>Getting Started 🚀</h2>
-<p>To begin working with this library, ensure you have the required dependencies installed, including Jupyter Notebook, Python, and any additional packages specified in README.md in each project folder.</p>
+<p>To begin working with this library, ensure you have the required dependencies installed, including Jupyter Notebook, Python, and any additional packages that specified in README.md in each project folder.</p>
 
 <h2>Notes 🌟</h2>
 <p>Happy learning, and don’t forget to stay hydrated as you dive into the world of Machine Learning! <br>- Muhammad Ivan Aldorino</p>
