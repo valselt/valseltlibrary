@@ -155,7 +155,7 @@
           </li>
           <li>
             <a href = "https://huggingface.co/docs/huggingface_hub/installation#:~:text=./huggingface_hub/.-,Install%20with%20conda,-If%20you%20are">Hugging Face Hub</a></br>
-            <pre><code>conda install -c conda-forge opencv</pre></code>
+            <pre><code>conda install conda-forge::huggingface_hub</pre></code>
           </li>
         </ul>
   <li><strong>Remember to use <code>pytorch</code> kernel when you try to run the notebooks.</strong></li>
