@@ -1,0 +1,6 @@
+torch
+torchvision
+torchaudio
+safetensors
+streamlit
+scikit-learn
