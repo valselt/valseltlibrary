@@ -33,7 +33,11 @@ channel = grpc.insecure_channel(f"localhost:{port}")
 client_stub = inference_service.stub_class(channel)
 
 # Run inference for two sample prompts
-for text in ["Aku sangat suka sekali makanan khas semarang!", "Nasi Padang dengan Minuman Manis adalah sebuah mimpi buruk yang bisa dibayangkan oleh manusia!"]:
+
+text1 = "Aku sangat suka sekali makanan khas semarang!"
+text2 = "Nasi Padang dengan Minuman Manis adalah sebuah mimpi buruk yang bisa dibayangkan oleh manusia!"
+
+for text in [text1, text2]:
    input_text_proto = TextInput(text=text).to_proto()
    request = inference_service.messages.HuggingFaceSentimentTaskRequest(
       text_input=input_text_proto
