@@ -43,3 +43,6 @@
 
 <h2>Notes 🌟</h2>
 <p>Happy learning, and don’t forget to stay hydrated as you dive into the world of Machine Learning! <br>- Muhammad Ivan Aldorino</p>
+
+<h2>Pro Tips💡</h2>
+<p><a href ="https://gist.github.com/jiewpeng/8ba446acf329b1801bf91db767d179ea">Add Anaconda Prompt to Right Click</a></p>
