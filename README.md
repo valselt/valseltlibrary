@@ -18,11 +18,24 @@
 
 <h2>Content Overview 📑</h2>
 <ol>
-  <li><strong><a href="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/CNN">CNN - MNIST</a> ✏️🖼️</strong> - Implementing Convolutional Neural Networks to classify handwritten digits in the MNIST dataset.</li>
-  <li><strong><a href="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/CNN">CNN - TACO</a> 🥡🗑️🖼️</strong> - Using CNN to identify and classify images in the Trash Annotations in Context (TACO) dataset, useful for object detection tasks.</li>
-  <li><strong><a href ="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/SVM">SVM - MNIST</a> ✏️🖼️</strong> - Support Vector Machine implementation for classifying MNIST digits, demonstrating a classic approach to image classification.</li>
-  <li><strong><a href ="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/SVM">SVM - TACO</a> 🥡🗑️🖼️</strong> - Utilizing SVMs on the TACO dataset for an alternative approach to image classification in waste management.</li>
-  <li><strong><a href ="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/HUGGING%20FACE/Transformers">Hugging Face - Transformers</a> 🤖🤗</strong> - Exploring Transformers for advanced NLP tasks using the Hugging Face library.</li>
+  <li><strong>Convolutional Neural Network</strong>
+  <ul>
+    <li><strong><a href="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/CNN">MNIST Dataset</a> ✏️🖼️</strong> - Implementing Convolutional Neural Networks to classify handwritten digits in the MNIST dataset.</li>
+    <li><strong><a href="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/CNN">TACO Dataset</a> 🥡🗑️🖼️</strong> - Using CNN to identify and classify images in the Trash Annotations in Context (TACO) dataset, useful for object detection tasks.</li>
+  </ul>
+  <li><strong>Support Vector Machine</strong>
+  <ul>
+    <li><strong><a href ="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/SVM">MNIST Dataset</a> ✏️🖼️</strong> - Support Vector Machine implementation for classifying MNIST digits, demonstrating a classic approach to image classification.</li>
+    <li><strong><a href ="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/SVM">TACO Dataset</a> 🥡🗑️🖼️</strong> - Utilizing SVMs on the TACO dataset for an alternative approach to image classification in waste management.</li>
+  </ul>
+  <li><strong>Hugging Face</strong>
+  <ul>
+    <li><strong><a href ="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/HUGGING%20FACE/Transformers">Transformers</a> 🤖🤗</strong> - Exploring Transformers for advanced NLP tasks using the Hugging Face library.</li>
+  </ul>
+  <li><strong>Deep Convolutional GAN</strong>
+  <ul>
+    <li><strong><a href ="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/HUGGING%20FACE/Transformers">Creating Anime Characters (with Keras)</a> 🌸⛩️🤗</strong> - Implementing Deep Convolutional GANs (DCGANs) with Keras to generate unique anime-style characters.</li>
+  </ul>
 </ol>
 
 <h2>Getting Started 🚀</h2>
