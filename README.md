@@ -34,7 +34,7 @@
   </ul>
   <li><strong>Deep Convolutional GAN</strong>
   <ul>
-    <li><strong><a href ="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/HUGGING%20FACE/Transformers">Creating Anime Characters (with Keras)</a> 🌸⛩️🤗</strong> - Implementing Deep Convolutional GANs (DCGANs) with Keras to generate unique anime-style characters.</li>
+    <li><strong><a href ="https://github.com/valselt/valseltlibrary/tree/main/MACHINE%20LEARNING/DCGAN/Creating%20Anime%20Characters%20using%20Deep%20Convolutional%20Generative%20Adversarial%20Networks%20(DCGANs)%20and%20Keras">Creating Anime Characters (with Keras)</a> 🌸⛩️🤗</strong> - Implementing Deep Convolutional GANs (DCGANs) with Keras to generate unique anime-style characters.</li>
   </ul>
 </ol>
 
