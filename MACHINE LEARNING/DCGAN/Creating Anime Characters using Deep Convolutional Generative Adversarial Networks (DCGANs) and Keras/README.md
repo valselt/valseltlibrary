@@ -46,9 +46,8 @@
       <li>Name the environment <code>dcgan-anime</code> and choose Python version <code>3.9.x</code>.</li>
       <li>Open Anaconda Prompt</li>
       <li>Type this on your Anaconda Prompt<pre><code>conda activate dcgan-anime</code></pre></li>
-      <li>Open <a href = "https://www.tensorflow.org/install/pip#windows-native:~:text=Then%20install%20the%20CUDA%2C%20cuDNN%20with%20conda.">Tensorflow with pip</a> and follow the instruction inside those documentation. The code below is the same as stated inside the documentation :</li>
+      <li>Install Tensorflow first :</li>
         <ul>
-           <li><pre><code>conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0</pre></code></li>
            <li><pre><code>pip install "tensorflow<2.11"</pre></code></li>
         </ul>
         <li>Install other dependencies used in this project :</li>
