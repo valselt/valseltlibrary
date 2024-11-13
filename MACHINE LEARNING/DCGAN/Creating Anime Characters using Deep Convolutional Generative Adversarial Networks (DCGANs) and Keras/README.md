@@ -43,12 +43,12 @@
       <li><strong>Create a New Environment</strong>
       <li>Click on the "Environments" tab on the left sidebar.</li>
       <li>Click "Create" at the bottom left.</li>
-      <li>Name the environment <code>dcgan-anime</code> and choose Python version <code>3.9.x</code>.</li>
+      <li>Name the environment <code>dcgan-anime</code> and choose Python version <code>3.10.x</code>.</li>
       <li>Open Anaconda Prompt</li>
       <li>Type this on your Anaconda Prompt<pre><code>conda activate dcgan-anime</code></pre></li>
       <li>Install Tensorflow first :</li>
         <ul>
-           <li><pre><code>pip install "tensorflow<2.11"</pre></code></li>
+           <li><pre><code>conda install tensorflow</pre></code></li>
         </ul>
         <li>Install other dependencies used in this project :</li>
         <ul>
