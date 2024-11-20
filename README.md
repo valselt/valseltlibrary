@@ -47,3 +47,4 @@
 <h2>Pro Tips💡</h2>
 <p><a href ="https://gist.github.com/jiewpeng/8ba446acf329b1801bf91db767d179ea">Add Anaconda Prompt to Right Click</a></p>
 <p><a href ="https://medium.com/red-buffer/supercharging-data-science-using-gpu-for-lightning-fast-numpy-pandas-sklearn-and-scipy-9330c4426eb7">Make use of a GPU to accelerate Numpy, Pandas, Sklearn and Scipy </a> (Not Used in this Repository, do and research it on your own)</p>
+<p><a href ="https://docs.docker.com/desktop/features/gpu/">GPU Support in Docker Dekstop using WSL2</p>
