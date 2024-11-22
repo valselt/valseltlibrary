@@ -34,52 +34,7 @@
 <ol>
   <li><a href ="https://github.com/valselt/valseltlibrary/blob/main/FRAMEWORK/CNN/tensorflow-option1.md"><strong>(Option 1) Use the valselt's Anaconda Configuration</strong></a></li>
   
-  <li><strong>(Option 2) Build it yourself!</strong>
-    <ul>
-      <li><strong>Create a New Environment</strong>
-      <li>Click on the "Environments" tab on the left sidebar.</li>
-      <li>Click "Create" at the bottom left.</li>
-      <li>Name the environment <code>tensorflow</code> and choose Python version <code>3.9.x</code>.</li>
-      <li>Open Anaconda Prompt</li>
-      <li>Type this on your Anaconda Prompt<pre><code>conda activate tensorflow</code></pre></li>
-      <li>Open <a href = "https://www.tensorflow.org/install/pip#windows-native:~:text=Then%20install%20the%20CUDA%2C%20cuDNN%20with%20conda.">Tensorflow with pip</a> and follow the instruction inside those documentation. The code below is the same as stated inside the documentation :</li>
-        <ul>
-           <li><pre><code>conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0</pre></code></li>
-           <li><pre><code>pip install "tensorflow<2.11"</pre></code></li>
-        </ul>
-        <li>Install other dependencies used in this project :</li>
-        <ul>
-          <li>
-            <a href="https://github.com/tensorflow/tensorflow/issues/60216#:~:text=Numpy%20was%20pinned%20to%20%3C1.24%20since%20it%20affected%20few%20tests%20on%20Ragged%20Tensors.%20Agree%20that%20we%20should%20fix%20those%20tests%20and%20remove%20the%20upperbound%20in%20future%20releases.">NumPy</a></br>
-            <pre><code>conda install numpy=1.24</pre></code>
-          </li>
-          <li>
-            <a href="https://matplotlib.org/devdocs/devel/min_dep_policy.html#:~:text=of%20the%20dependencies.-,Matplotlib,1.23.0,-3.8">Matplotlib</a></br>
-            <pre><code>conda install matplotlib=3.9</pre></code>
-          </li>
-          <li>
-            <a href="https://pandas.pydata.org/pandas-docs/version/2.1.3/getting_started/install.html#:~:text=Required%20dependencies">Pandas</a></br>
-            <pre><code>conda install pandas</pre></code>
-          </li>
-          <li>
-            OpenCV</br>
-            <pre><code>conda install -c conda-forge opencv</pre></code>
-          </li>
-          <li>
-            <a href="https://ipython.readthedocs.io/en/8.27.0/install/kernel_install.html#:~:text=different%20virtualenvs%20or-,conda%20environments,-%2C%20you%20will%20need">IPython Kernel</a></br>
-            <pre><code>conda install ipykernel</pre></code>
-          </li>
-          <li>
-            Kaggle</br>
-            <pre><code>conda install conda-forge::kaggle</pre></code>
-          </li>
-          <li>
-            <a href="https://scikit-learn.org/stable/install.html">Scikit Learn</a></br>
-            <pre><code>conda install scikit-learn</pre></code>
-          </li>
-        </ul>
-    </ul>
-  </li>
+  <li><a href = "https://github.com/valselt/valseltlibrary/blob/main/FRAMEWORK/CNN/tensorflow-option2.md"><strong>(Option 2) Build it yourself!</strong></a></li>
 </ol>
 
 
