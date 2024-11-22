@@ -118,19 +118,7 @@
 </h3>
 
 <ol>
-  <li><strong>Install Anaconda</strong> - Download Anaconda from <a href="https://www.anaconda.com/download">Anaconda Download</a> and install it on your system.</li>
-  <li><strong>Open Anaconda Navigator</strong> - Launch the Anaconda Navigator application.</li>
-  <li><strong>Create a New Environment</strong>
-    <ul>
-      <li>Click on the "Environments" tab on the left sidebar.</li>
-      <li>Click "Create" at the bottom left.</li>
-      <li>Name the environment <code>pytorch</code> .</li>
-    </ul>
-  </li>
-  <li><strong>Open Anaconda Prompt in your Computer</strong></li>
-  <li>Once you are inside of the Anaconda Prompt, type this : <pre><code>conda activate pytorch</code></pre> and then hit enter.</li>
-  <li>Once you are inside of the <code>(pytorch)</code>, open the <a href="https://pytorch.org/get-started/locally/">PyTorch Website</a> and select the one that you want to installed on the computer. For Example, I want to use CUDA 12.4 and installed it through conda installer.</li>
-  <li>For that, I will type <pre><code>conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia</code></pre> in the ananconda prompt and hit enter.</li>
+  <li>Follow the instruction in this <a href "https://github.com/valselt/valseltlibrary/blob/main/FRAMEWORK/pytorch-cuda.md">link</a></li>
   <li>Install other dependencies used in this project :</li>
         <ul>
           <li>
