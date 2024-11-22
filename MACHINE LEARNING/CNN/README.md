@@ -32,18 +32,7 @@
 </h3>
 
 <ol>
-  <li><strong>Install Anaconda</strong> - Download Anaconda from <a href="https://www.anaconda.com/download">Anaconda Download</a> and install it on your system.</li>
-  <li><strong>(Option 1) Use the valselt's Anaconda Configuration</strong>
-    <ul>
-      <li>Launch the Anaconda Navigator application.</li>
-      <li>Click on the "Environments" tab on the left sidebar.</li>
-      <li>Before importing configuration, download the <code><a href = "https://github.com/valselt/valseltlibrary/blob/main/REQUIREMENTS/py39-tensorflow.yaml">py39-tensorflow.yaml</a></code> from REQUIREMENTS folder first.</li>
-      <li>Click "Import" at the bottom left.</li>
-      <li>Click "Import from Local Drive".</li>
-      <li>Click on the folder icon, and choose <code>py39-tensorflow.yaml</code> you download earlier.</li>
-      <li>Name the environment <code>tensorflow</code>.</li>
-    </ul>
-  </li>
+  <li><a href ="https://github.com/valselt/valseltlibrary/blob/main/FRAMEWORK/CNN/tensorflow-option1.md"><strong>(Option 1) Use the valselt's Anaconda Configuration</strong></a></li>
   
   <li><strong>(Option 2) Build it yourself!</strong>
     <ul>
